@@ -1,0 +1,6 @@
+
+#define Cell
+
+#define ghost_width 4
+
+#define GR 0

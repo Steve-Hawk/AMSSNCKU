@@ -1,0 +1,15 @@
+//$Id: ReadMe,v 1.1.1.1 2012/02/03 08:46:28 zjcao Exp $
+
+1. Acordding to your system, write a head file for makefile--makefile.inc. There are many examples here including makefile_icm and others.
+
+2. Use command
+
+csh gocom.csh 
+
+for cshell, or
+
+sh gocom.sh
+
+for bshell to compile the code.
+
+3. use say 'mpirun -np 4 ABE' to run the code

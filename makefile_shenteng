@@ -1,0 +1,10 @@
+# $Id: makefile_shenteng,v 1.1.1.1 2012/02/03 08:46:28 zjcao Exp $
+filein  = -I/home_soft/soft/x86_64/mpi/mpich2/1.0.8p1/include
+
+LDLIBS  =  -L/home_soft/soft/x86_64/mpi/mpich2/1.0.8p1/lib -lmpich -lifcore
+
+CXXAPPFLAGS = -O2 -Wno-deprecated -Dfortran3
+f90appflags = -O2
+f90 = ifort
+CXX = icpc
+CLINKER = mpiicpc
